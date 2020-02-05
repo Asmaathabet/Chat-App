@@ -1,5 +1,5 @@
 {
-  "name": "Chat-App",
+  "name": "chat-app",
   "version": "1.0.0",
   "description": "using Express.js &amp; Socket IO",
   "main": "index.js",
