@@ -1,0 +1,26 @@
+{
+  "name": "Chat-App",
+  "version": "1.0.0",
+  "description": "using Express.js &amp; Socket IO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asmaathabet/Chat-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asmaathabet/Chat-App/issues"
+  },
+  "homepage": "https://github.com/Asmaathabet/Chat-App#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
