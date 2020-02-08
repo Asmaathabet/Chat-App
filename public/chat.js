@@ -15,3 +15,8 @@ send.addEventListener('click', ()=>{
       sender: sender.value
     })
 })
+
+// Listen for events
+socket.on('chat', data =>{
+    output.innerHTML += '<p><strong>'+ data.sender+ ':</strong>'+ data.message + '</p>';
+})
