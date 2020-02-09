@@ -10,14 +10,14 @@ var message = document.getElementById('message'),
 
 // emit events 
 
-send.addEventListener('click', ()=>{
+send.addEventListener('click', () => {
     socket.emit('chat', {
       message : message.value ,
       sender: sender.value
     })
 }); 
 
-message.addEventListener('keypress', ()=>{
+message.addEventListener('keypress', () => {
     socket.emit('typing', sender.value);
 })
 
@@ -28,5 +28,5 @@ socket.on('chat', data =>{
 })
 
 socket.on('typing', data =>{
-    feedback.innerHTML += '<p><em>'+ data+ ' is typing a message ... </em></p>';
+    feedback.innerHTML = '<p><em>'+ data + ' is typing a message ... </em></p>';
 })
